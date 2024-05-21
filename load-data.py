@@ -98,7 +98,7 @@ def update_plot(frame):
 
 if __name__ == "__main__":
     # start the file-following thread
-    threading.Thread(target=follow_file, args=('/home/stelios/contiki-ng/examples/my_nullnet/out_pipe',), daemon=True).start()
+    threading.Thread(target=follow_file, args=('./telosB-files/out_pipe',), daemon=True).start()
 
     # set up the plot
     fig = plt.figure()
