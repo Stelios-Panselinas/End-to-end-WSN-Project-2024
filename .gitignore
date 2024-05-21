@@ -3,3 +3,4 @@ telosB-files/build/*
 *.ihex
 serialdump-*
 out_pipe
+*.csv
