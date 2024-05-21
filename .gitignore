@@ -1,0 +1,5 @@
+telosB-files/build/*
+*.sky
+*.ihex
+serialdump-*
+out_pipe
